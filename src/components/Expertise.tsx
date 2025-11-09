@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faPython } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
@@ -17,7 +17,12 @@ const labelsFirst = [
     "MongoDB",
     "Postman"
 ];
-
+const labelsSecond = [
+    "TCP/IP",
+    "Cisco Packet Tracer",
+    "Socket.io",
+    "OSI Model"
+];
 
 
 function Expertise() {
@@ -33,6 +38,17 @@ function Expertise() {
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
+                </div>
+                <div className="skill">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3786/3786658.png" alt="3x" />
+                    <h3>Network Engineering</h3>
+                    <p>I have a strong understanding of network engineering and have built a variety of network applications. I have experience with TCP/IP, Cisco Packet Tracer, Socket.io, and OSI Model.</p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Tech stack:</span>
+                        {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
