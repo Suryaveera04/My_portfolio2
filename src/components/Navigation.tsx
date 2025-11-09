@@ -15,10 +15,11 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
-import { Certificate } from "crypto";
+import Certificate from './Certificate';
+
 
 const drawerWidth = 240;
-const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'],['Certificates','certificates'] ,['Contact', 'contact']];
+const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'],['Certificates', 'certificates'],['Contact', 'contact']];
 
 function Navigation({parentToChild, modeChange}: any) {
 
