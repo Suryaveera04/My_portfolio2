@@ -15,7 +15,7 @@
 
 Welcome to my portfolio! I'm **M Suryaveera**, a passionate Full Stack Developer and Network Engineer with expertise in modern web technologies and network infrastructure. I specialize in building scalable web applications and designing robust network solutions.
 
-![Portfolio Screenshot](./src/assets/images/screenshot.png)
+![Portfolio Screenshot](./src/assets/images/mock10.png)
 
 ## 🚀 Expertise & Skills
 
